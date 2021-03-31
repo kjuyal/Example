@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "Hello TechPrimers";
+        return "Hello Madan Kumar this is being deployed using Elastic Bean stack";
     }
 }

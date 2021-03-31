@@ -13,6 +13,7 @@ phases:
     commands:
     - echo "Entered the post-build phase"
     - mv target/deploy ./
+    - echo "Completed Post build Actions ........................"
 artifacts:
   files:
     - deploy/**/*
